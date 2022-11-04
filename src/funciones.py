@@ -17,7 +17,7 @@ def special_features(x):
     else:
         trail.append('N')
     if 'Commentaries' in x:
-        trail.commen('Y')
+        trail.append('Y')
     else:
         commen.append('N')
     if 'Behind the Scenes' in x:
@@ -33,6 +33,12 @@ def special_features(x):
     print(commen)
     print(bh_scene)
     print(del_scene)
+    
+    
+    
+def actor_id(x):
+    if actor.first_name=x and actor.last_name=x:
+        old_HDD['actor_id']=actor.actor_id
         
         
         
